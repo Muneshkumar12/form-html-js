@@ -5,19 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-data-get</title>
+    <style>
+        #message{
+            display: none;
+            color: red;
+        }
+        #message2{
+            display: none;
+            color: red;
+        }
+        #message3{
+            display: none;
+            color: red;
+        }
+        #message4{
+            display: none;
+            color: red;
+        }
+        #message5{
+            display: none;
+            color: red;
+        }
+        #message6{
+            display: none;
+            color: red;
+        }
+        #message7{
+            display: none;
+            color: red;
+        }
+        #message8{
+            display: none;
+            color: red;
+        }
+        #message9{
+            display: none;
+            color: red;
+        }
+        #success{
+            display: none;
+            color: green;
+        }
+    </style>
 </head>
 <body>
-     <input type="text"  placeholder="Name" id="name" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="text"  placeholder="Father Name" id="fatherName" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="email" placeholder="Email"  id="email" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="password" placeholder="password" id="password" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="number" placeholder="CNIC Number" id="cnic" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="number" placeholder="Mobile Number" id="Mobile" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="text" placeholder="Select Course" id="course" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="text" placeholder="Select Qualification" id="qualification" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <input type="text" placeholder="Select Gender" id="gender" onfocus="this.style.backgroundColor='gray'" onblur="this.style.backgroundColor='green'"/> <br>
-    <button onclick="addData()">Add</button>
-    
+     <input type="text"  placeholder="Name" id="name"/> <br>
+    <input type="text"  placeholder="Father Name" id="fatherName"/> <br>
+    <input type="email" placeholder="Email"  id="email"/> <br>
+    <input type="password" placeholder="password" id="password"/> <br>
+    <input type="number" placeholder="CNIC Number" id="cnic"/> <br>
+    <input type="number" placeholder="Mobile Number" id="mobile"/> <br>
+    <input type="text" placeholder="Select Course" id="course"/> <br>
+    <input type="text" placeholder="Select Qualification" id="qualification"/> <br>
+    <input type="text" placeholder="Select Gender" id="gender"/> <br>
+    <p id="message">Please enter your name</p>
+    <p id="message2">Please enter your father's name</p>
+    <p id="message3">Please enter your email</p>
+    <p id="message4">Please enter your password</p>
+    <p id="message5">Please enter your CNIC number</p>
+    <p id="message6">Please enter your mobile number</p>
+    <p id="message7">Please select any one course</p>
+    <p id="message8">Please select your Qualification </p>
+    <p id="message9">Please select your Geder</p>
+    <p id="success">Your form submit successfully</p>
+    <button onclick="submitData()">Submit</button>
     <script src="./pages/indexx.js"></script>
 </body>
 </html>
